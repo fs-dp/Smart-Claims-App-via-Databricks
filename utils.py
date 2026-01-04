@@ -175,8 +175,8 @@ def render_header():
                 <a href="#" style="text-decoration: none; color: #64748B; font-weight: 500; font-size: 0.875rem;">My Policies</a>
                 <a href="#" style="text-decoration: none; color: #64748B; font-weight: 500; font-size: 0.875rem;">Support</a>
                 <div style="display: flex; align-items: center; gap: 8px;">
-                    <div style="width: 32px; height: 32px; background-color: #EFF6FF; color: #1D4ED8; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem;">LD</div>
-                    <span style="font-size: 0.875rem; font-weight: 600; color: #334155;">Lotta Dietz</span>
+                    <div style="width: 32px; height: 32px; background-color: #EFF6FF; color: #1D4ED8; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.875rem;">ZT</div>
+                    <span style="font-size: 0.875rem; font-weight: 600; color: #334155;">Zeki Tekin</span>
                 </div>
             </div>
         </div>

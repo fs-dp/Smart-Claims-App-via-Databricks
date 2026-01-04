@@ -123,7 +123,7 @@ def render_detail_view():
         st.markdown('<div class="css-card" style="text-align:center;">', unsafe_allow_html=True)
         st.markdown("#### 📸 Accident Image")
         # Placeholder image logic
-        st.image("https://placehold.co/600x400/png?text=Car+Damage+Evidence", caption="Uploaded Evidence", use_column_width=True)
+        st.image("https://placehold.co/600x400/png?text=Car+Damage+Evidence", caption="Uploaded Evidence", use_container_width=True)
         st.info("AI Detected: Major Damage (98% Confidence)")
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -131,9 +131,9 @@ def render_detail_view():
     with c3:
         st.markdown('<div class="css-card">', unsafe_allow_html=True)
         st.markdown("#### 👤 Customer")
-        st.markdown("**Lotta Dietz**")
+        st.markdown("**Zeki Tekin**")
         st.caption("Policy #10212")
-        st.caption("Munich, Germany")
+        st.caption("Redmond, Washington")
         st.divider()
         
         st.markdown("#### Decision")

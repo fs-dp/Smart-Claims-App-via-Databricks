@@ -20,7 +20,7 @@ def render_submission_form():
             uploaded_file = st.file_uploader("Drop your crash photo here", type=['png', 'jpg'], label_visibility="collapsed")
             
             if uploaded_file:
-                st.image(uploaded_file, caption="41-major (2).png", use_column_width=True)
+                st.image(uploaded_file, caption="41-major (2).png", use_container_width=True)
                 st.markdown(f"<div style='text-align:center; color: #64748B; font-size: 0.8rem; margin-top: 5px;'>{uploaded_file.name} (1.7 MB)</div>", unsafe_allow_html=True)
                 # Store in session state for the next page
                 st.session_state['uploaded_image'] = uploaded_file
